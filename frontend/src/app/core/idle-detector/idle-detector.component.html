@@ -1,7 +1,7 @@
-<p-dialog header="Inactivo" [(visible)]="display" [draggable]="false" [closable]="false"
+<p-dialog header="閒置" [(visible)]="display" [draggable]="false" [closable]="false"
           [resizable]="false" [closeOnEscape]="true" modal="modal" width="300" responsive="true">
-    <p *ngIf="countdown">Su sesión expirará por inactivad en {{countdown}} segundos</p>
-    <p *ngIf="!countdown">Su sesión ha expirado</p>
+    <p *ngIf="countdown">您的會話將由於 {{countdown}} 秒內的未活動而過期</p>
+    <p *ngIf="!countdown">您的會話已過期</p>
     <footer *ngIf="timeout">
         <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
             <button type="button" pButton icon="pi pi-check" (click)="expired()" label="Ok"></button>

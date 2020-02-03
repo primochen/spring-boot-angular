@@ -1,0 +1,48 @@
+{
+  "error": {
+    "input": {
+      "required": "該字段是必填字段。",
+      "minlength": "至少 {{p1}} 個字",
+      "maxlength": "最多 {{p1}} 個字",
+      "validateEmail": "這不是有效的電子郵件",
+      "validateRUN": "這不是有效的例程 (Ex: 12345678-9)",
+      "validateUsername": "這不是有效的用戶名",
+      "notEqualsPasswords": "密碼不正確",
+      "usernameUnico": "用戶名不可用",
+      "emailUnico": "電子郵件不可用",
+      "runUnico": "RUN不可用"
+    }
+  },
+  "info": {
+    "input": {
+      "procesando": "正在處理中..."
+    },
+    "tooltip": {
+      "calendarMayor18Anios": "必須年滿18歲",
+      "username": "只允許使用字母和數字"
+    },
+    "msg": {
+      "exito" : "更改成功"
+    }
+  },
+  "dialogs": {
+    "error": {
+      "title": "失誤"
+    },
+    "info": {
+      "title": "資訊"
+    },
+    "cambiar-pass": {
+      "title": "修改密碼"
+    },
+    "msg": {
+      "eliminar-usuario": "您確定要刪除該用戶嗎？",
+      "form-invalido": "表格無效"
+    }
+  },
+  "labels": {
+    "aceptar": "接受",
+    "cancelar": "取消",
+    "cerrar": "結束"
+  }
+}
